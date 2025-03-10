@@ -31,9 +31,13 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/scss/bootstrap.scss",
+              "node_modules/bootstrap-icons/font/bootstrap-icons.css",
               "src/styles.scss"
             ],
-            "scripts": [],
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+            ],
             "browser": "src/main.ts"
           },
           "configurations": {
@@ -102,6 +106,6 @@
     }
   },
   "cli": {
-    "analytics": "7acfadfb-28f2-4a55-9f77-a4db0e05e1f4"
+    "analytics": "6c192945-4881-482f-93ec-ff8a5843e540"
   }
 }
