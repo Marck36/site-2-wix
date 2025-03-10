@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "site-2-wix:build:production"
+              "buildTarget": "site-2-wix:build:production"
             },
             "development": {
-              "browserTarget": "site-2-wix:build:development"
+              "buildTarget": "site-2-wix:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "site-2-wix:build"
+            "buildTarget": "site-2-wix:build"
           }
         },
         "test": {
