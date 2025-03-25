@@ -12,6 +12,17 @@
     }
 }
 
+.imgs-section-b {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 5.3em;
+  z-index: -2;
+
+  @media (min-width: 768px) {
+    z-index: -2;
+  }
+}
+
 .bg-img-section-c {
   background-image: url('../../../../../assets/images/bg-img-section-c-mobile.avif');
   background-repeat: no-repeat;
@@ -49,7 +60,29 @@
   }
 }
 
-.section5-button {
+.section-d-title {
+  font-family: 'eb garamond', serif;
+  letter-spacing: 6px;
+  text-align: start !important;
+  font-size: 38px;
+
+  @media (min-width: 768px) {
+    // font-size: 48px !important;
+  }
+}
+
+.section-d-span {
+  // line-height: 1.8em;
+  font-family: 'raleway', serif;
+  color: rgba(94, 94, 94, 1);
+  font-size: 22px !important;
+
+  @media (min-width: 768px) {
+    font-size: 18px !important;
+  }
+}
+
+.section-d-button {
   align-items: center;
   justify-content: center;
   background-color: rgba(114, 114, 114, 1);
@@ -63,7 +96,7 @@
   }
 }
 
-.section5-button-div {
+.section-d-button-div {
   align-items: center;
   justify-content: center;
 
