@@ -18,6 +18,13 @@
   }
 }
 
+.div-mobile-transparent {
+
+  @media (min-width: 768px) {
+    color: transparent !important;
+  }
+}
+
 .div-mobile {
   align-items: center;
   justify-content: center;
@@ -26,7 +33,7 @@
     width: 12% !important;
     height: 5vh !important;
     background-color: white !important;
-    translate: -300% 0%;
+    translate: 0% -400%;
   }
 }
 
@@ -39,7 +46,7 @@
 
   @media (min-width: 768px) {
     width: 100% !important;
-    height: 9vh !important;
+    height: 10vh !important;
     z-index: 0 !important;
     // background-color: white !important;
     translate: 0% -56%;
@@ -58,13 +65,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  // line-height: 1.8em;
   font-family: 'raleway', sans-serif;
-  color: rgba(47, 46, 46, 1);
-  font-size: 14px !important;
+  color: rgba(47, 46, 46, 0.7);
+  font-size: 12px !important;
   z-index: -10 !important;
 
   @media (min-width: 768px) {
+    font-size: 12px !important;
     // translate: 0% -60%;
   }
 }

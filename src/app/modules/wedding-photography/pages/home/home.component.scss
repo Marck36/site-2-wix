@@ -3,35 +3,56 @@
     background-image: url('../../../../../assets/images/bg-img-section-a-mobile.avif');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: sticky;
     height: 50vh;
-    z-index: -1;
-  
+    z-index: -10;
+
     @media (min-width: 768px) {
       background-image: url('../../../../../assets/images/bg-img-section-a.avif');
-      height: 70vh;
+      // background-position: center top !important;
+      background-position-y: 70%;
+      height: 110vh;
     }
 }
 
 .section-a-title {
   font-family: 'eb garamond', serif;
-  // letter-spacing: 6px;
   text-align: center !important;
   font-size: 44px;
 
   @media (min-width: 768px) {
-    // font-size: 48px !important;
+    letter-spacing: 2px;
+    font-size: 48px !important;
   }
 }
 
 .section-a-subtitle {
   font-family: 'raleway', sans-serif !important;
-  // letter-spacing: 6px;
   text-align: center !important;
   font-size: 20px;
 
   @media (min-width: 768px) {
-    // font-size: 48px !important;
+    letter-spacing: 1px;
+    font-size: 18px !important;
+  }
+}
+
+.div-section-a {
+  align-items: center;
+  justify-content: top;
+
+  @media (min-width: 768px) {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.img-fluid {
+  height: 132px;
+  width: 132px;
+
+  @media (min-width: 768px) {
+    height: 96px;
+    width: 96px;
   }
 }
 
@@ -63,7 +84,7 @@
     height: 24vh;
     width: 90%;
     z-index: -2;
-  
+
     @media (min-width: 768px) {
       background-image: url('../../../../../assets/images/bg-img-section-b.avif');
       background-position: right center !important;
@@ -90,7 +111,7 @@
     background-size: cover;
     height: 5.3em;
     z-index: -2;
-  
+
     @media (min-width: 768px) {
       background-image: url('../../../../../assets/images/section-b-desktop/img-section-b-dt-1.jpeg');
       height: 36vh;
@@ -103,7 +124,7 @@
     background-size: cover;
     height: 5.3em;
     z-index: -2;
-  
+
     @media (min-width: 768px) {
       background-image: url('../../../../../assets/images/section-b-desktop/img-section-b-dt-2.jpg');
       height: 36vh;
@@ -116,7 +137,7 @@
     background-size: cover;
     height: 5.3em;
     z-index: -2;
-  
+
     @media (min-width: 768px) {
       background-image: url('../../../../../assets/images/section-b-desktop/img-section-b-dt-3.jpg');
       height: 36vh;
@@ -129,7 +150,7 @@
     background-size: cover;
     height: 5.3em;
     z-index: -2;
-  
+
     @media (min-width: 768px) {
       background-image: url('../../../../../assets/images/section-b-desktop/img-section-b-dt-4.jpg');
       height: 36vh;
@@ -142,7 +163,7 @@
     background-size: cover;
     height: 5.3em;
     z-index: -2;
-  
+
     @media (min-width: 768px) {
       background-image: url('../../../../../assets/images/section-b-desktop/img-section-b-dt-5.jpg');
       height: 36vh;
@@ -155,7 +176,7 @@
     background-size: cover;
     height: 5.3em;
     z-index: -2;
-  
+
     @media (min-width: 768px) {
       background-image: url('../../../../../assets/images/section-b-desktop/img-section-b-dt-6.jpg');
       height: 36vh;
@@ -168,7 +189,7 @@
     background-size: cover;
     height: 5.3em;
     z-index: -2;
-  
+
     @media (min-width: 768px) {
       background-image: url('../../../../../assets/images/section-b-desktop/img-section-b-dt-7.jpg');
       height: 36vh;
@@ -181,7 +202,7 @@
     background-size: cover;
     height: 5.3em;
     z-index: -2;
-  
+
     @media (min-width: 768px) {
       background-image: url('../../../../../assets/images/section-b-desktop/img-section-b-dt-8.jpeg');
       height: 36vh;
@@ -194,7 +215,7 @@
     background-size: cover;
     height: 5.3em;
     z-index: -2;
-  
+
     @media (min-width: 768px) {
       background-image: url('../../../../../assets/images/section-b-desktop/img-section-b-dt-9.jpeg');
       height: 36vh;
@@ -207,7 +228,7 @@
     background-size: cover;
     height: 5.3em;
     z-index: -2;
-  
+
     @media (min-width: 768px) {
       background-image: url('../../../../../assets/images/section-b-desktop/img-section-b-dt-10.jpg');
       height: 36vh;
@@ -220,7 +241,7 @@
     background-size: cover;
     height: 5.3em;
     z-index: -2;
-  
+
     @media (min-width: 768px) {
       background-image: url('../../../../../assets/images/section-b-desktop/img-section-b-dt-11.jpg');
       height: 36vh;
@@ -233,7 +254,7 @@
     background-size: cover;
     height: 5.3em;
     z-index: -2;
-  
+
     @media (min-width: 768px) {
       background-image: url('../../../../../assets/images/section-b-desktop/img-section-b-dt-12.jpeg');
       height: 36vh;
@@ -369,11 +390,11 @@
 }
 
 .section-d-input {
-  padding: 12px 0px; 
+  padding: 12px 0px;
   font-size: 18px;
 
   @media (min-width: 768px) {
-    padding: 6px 0px; 
+    padding: 6px 0px;
     font-size: 14px;
   }
 }
