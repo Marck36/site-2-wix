@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "./dist/site-2-wix",
+    "public": "./dist/site-2-wix/browser",
     "ignore": [
       "firebase.json",
       "**/.*",

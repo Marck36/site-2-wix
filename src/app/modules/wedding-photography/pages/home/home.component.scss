@@ -9,6 +9,7 @@
     @media (min-width: 768px) {
       background-image: url('../../../../../assets/images/bg-img-section-a.avif');
       background-position-y: 70%;
+      background-attachment: fixed;
       height: 110vh;
     }
 }
@@ -309,6 +310,7 @@
 
   @media (min-width: 768px) {
     background-image: url('../../../../../assets/images/bg-img-section-c.avif');
+    background-attachment: fixed;
     height: 90vh;
   }
 }
